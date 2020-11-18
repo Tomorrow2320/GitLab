@@ -4,3 +4,5 @@
   compiler: gcc
 
   os: macOS
+  
+  script: make && make test
