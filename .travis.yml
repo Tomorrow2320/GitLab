@@ -5,4 +5,6 @@
 
   os: macOS
 
-  script: make test
+  script: 
+  - g++ main.c -o travis_gcc_cpp98
+  - ./travis_gcc_cpp98 
