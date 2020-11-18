@@ -5,4 +5,4 @@
 
   os: macOS
 
-  script: make
+  script: make test
